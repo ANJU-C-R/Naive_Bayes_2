@@ -16,4 +16,16 @@ The dataset used in this project contains information about different drug types
 | **Na to Potassium Ratio** | The ratio of sodium to potassium in the blood (numerical). |
 | **Drug Type**         | The type of drug prescribed to the patient (target variable). |
 
+The target variable in this dataset is "Drug Type," which represents the medication prescribed based on patient attributes.Different types of drug are:
+
+**✔ DrugY**
+
+**✔ DrugX**
+
+**✔ DrugA**
+
+**✔ DrugC**
+
+**✔ DrugB**
+
 By applying classification algorithms, we aim to develop a predictive model that can assist in recommending the most suitable drug for a patient.
