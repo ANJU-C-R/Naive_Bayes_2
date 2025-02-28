@@ -60,9 +60,7 @@ By applying classification algorithms, we aim to develop a predictive model that
 ---
 
 ### **5️⃣ Training the Naive Bayes Model**  
-- **Initializing the KNN classifier** with **k=7**, meaning it considers the 7 nearest neighbors for classification.  
-- **Training the model** using the preprocessed training data.  
-
+- Use the Bernoulli Naïve Bayes classifier, which is suitable for binary feature datasets. Train the model using the training data, where it learns the probability distribution of each binary feature in relation to different drug classifications. The model then applies Bayes' Theorem to predict the most probable drug type for new patient data.
 ---
 
 ### **6️⃣ Making Predictions on Test Data**  
@@ -82,4 +80,4 @@ By applying classification algorithms, we aim to develop a predictive model that
 
 ## **Conclusion**  
                                     
-This project successfully implements KNN classification to predict milk quality based on the depending features.
+In this project, we successfully implemented a **Naïve Bayes classifier** to predict drug types based on patient attributes such as **age, sex, blood pressure, cholesterol levels, and sodium-to-potassium ratio**.By using Bernoulli Naïve Bayes we effectively handled both numerical and categorical data, achieving a reliable classification model. The model’s performance was evaluated using accuracy, precision, recall, and a confusion matrix, demonstrating its effectiveness in drug classification. This project highlights the power of **machine learning in healthcare**, offering a data-driven approach to assist in medication recommendations. 
