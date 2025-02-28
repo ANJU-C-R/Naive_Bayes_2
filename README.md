@@ -74,7 +74,7 @@ By applying classification algorithms, we aim to develop a predictive model that
 -Assess the model’s performance using metrics such as accuracy, classification report (precision, recall, F1-score), and confusion matrix. These metrics help determine how well the model is classifying different drug types.
 - The **confusion matrix** provides insights into **true positives, false positives, true negatives, and false negatives**.  
 - The **accuracy score** is computed to evaluate the overall performance of the model.  
-- A **classification report** is generated, providing **precision, recall, and F1-score** for each milk quality.  
+- A **classification report** is generated, providing **precision, recall, and F1-score**.  
 
 ---
 
