@@ -33,3 +33,53 @@ The target variable in this dataset is "Drug Type," which represents the medicat
 **✔ DrugB**
 
 By applying classification algorithms, we aim to develop a predictive model that can assist in recommending the most suitable drug for a patient.
+##  **Step-by-Step Implementation of Naive Bayes Algorithm**
+
+### **1️⃣ Data Loading & Preprocessing**  
+- **Reading the dataset** and inspecting its structure.  
+- **Checking for missing values**   
+- **Encoding categorical variables**
+- **A pie chart or barchart is drawn using matplotlib to visualize the distribution of categorical variables in the dataset.**
+
+---
+
+### **2️⃣ Splitting Data into Features & Target Variable**  
+- **Defining the feature matrix (x)**, which includes all predictor variables.  
+- **Defining the target variable (y)**, which contains the type of drug required.
+
+---
+
+### **3️⃣ Splitting Data into Training & Testing Sets**  
+- **Dividing the dataset** into **70% training data and 30% testing data** using stratified sampling to ensure an even distribution of classes.  
+
+---
+
+### **4️⃣ Feature Scaling Using Standardization**    
+- **StandardScaler** is applied to ensure all features have equal weight in distance computation.  
+
+---
+
+### **5️⃣ Training the Naive Bayes Model**  
+- **Initializing the KNN classifier** with **k=7**, meaning it considers the 7 nearest neighbors for classification.  
+- **Training the model** using the preprocessed training data.  
+
+---
+
+### **6️⃣ Making Predictions on Test Data**  
+- Once the model is trained, use it to predict drug types for the test data. The model assigns probabilities to each drug type and selects the one with the highest probability.  
+
+---
+
+### **7️⃣ Evaluating Model Performance**  
+
+#### **Confusion Matrix Analysis** ,**Accuracy Score & Classification Report**  
+-Assess the model’s performance using metrics such as accuracy, classification report (precision, recall, F1-score), and confusion matrix. These metrics help determine how well the model is classifying different drug types.
+- The **confusion matrix** provides insights into **true positives, false positives, true negatives, and false negatives**.  
+- The **accuracy score** is computed to evaluate the overall performance of the model.  
+- A **classification report** is generated, providing **precision, recall, and F1-score** for each milk quality.  
+
+---
+
+## **Conclusion**  
+                                    
+This project successfully implements KNN classification to predict milk quality based on the depending features.
